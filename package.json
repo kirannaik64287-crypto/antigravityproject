@@ -1,0 +1,19 @@
+{
+  "name": "agrisahayak-platform",
+  "version": "1.0.0",
+  "description": "AgriSahayak - AI-Powered Agriculture Crop Advisory Assistant",
+  "type": "module",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "build:client": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "migrate": "node supabase/apply-migrations.js"
+  },
+  "keywords": ["agriculture", "ai", "gemini", "crop-advisory", "soil-health", "farming"],
+  "author": "AgriSahayak Team",
+  "license": "MIT"
+}

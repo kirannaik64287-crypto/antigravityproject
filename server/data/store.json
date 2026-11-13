@@ -1,0 +1,435 @@
+{
+  "profiles": {
+    "00000000-0000-0000-0000-000000000001": {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "fullName": "Rajesh Patel",
+      "email": "farmer@agrisahayak.local",
+      "phone": "+91 98765 43210",
+      "preferredLanguage": "en",
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "village": "Kalmeshwar",
+      "postalCode": "441501",
+      "farmingExperience": 12,
+      "farmingType": "conventional",
+      "totalLandArea": 5.5,
+      "preferredUnits": "acres",
+      "createdAt": "2026-11-13T08:10:48.430Z"
+    }
+  },
+  "farms": [
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "userId": "00000000-0000-0000-0000-000000000001",
+      "name": "Krishna River Plot",
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "village": "Kalmeshwar",
+      "latitude": 21.2333,
+      "longitude": 78.9167,
+      "totalArea": 3.5,
+      "areaUnit": "acres",
+      "soilType": "black",
+      "irrigationSource": "borewell",
+      "waterAvailability": "sufficient",
+      "farmingMethod": "conventional",
+      "currentCultivationStatus": "standing_crop",
+      "notes": "Black cotton soil with high moisture retention capacity.",
+      "isPrimary": true,
+      "createdAt": "2026-11-13T08:10:48.431Z"
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222222",
+      "userId": "00000000-0000-0000-0000-000000000001",
+      "name": "North Canal Orchard",
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "village": "Mohpa",
+      "latitude": 21.3167,
+      "longitude": 78.8167,
+      "totalArea": 2,
+      "areaUnit": "acres",
+      "soilType": "alluvial",
+      "irrigationSource": "canal",
+      "waterAvailability": "abundant",
+      "farmingMethod": "organic",
+      "currentCultivationStatus": "land_preparation",
+      "notes": "Light loamy soil near canal distributary.",
+      "isPrimary": false,
+      "createdAt": "2026-11-13T08:10:48.431Z"
+    }
+  ],
+  "cropAdvisories": [
+    {
+      "id": "f2a5c0f9-f8fb-42d7-a9da-326baf2fcd96",
+      "userId": "00000000-0000-0000-0000-000000000001",
+      "farmId": null,
+      "soilType": "black",
+      "soilPh": 7.2,
+      "nitrogen": 240,
+      "phosphorus": 14,
+      "potassium": 190,
+      "season": "Kharif",
+      "location": "Maharashtra, Nagpur",
+      "irrigationStatus": "irrigated",
+      "waterAvailability": "sufficient",
+      "landArea": 3.5,
+      "recommendations": [
+        {
+          "cropName": "Rice (Paddy)",
+          "scientificName": "Oryza sativa",
+          "suitabilityScore": 98,
+          "suitabilityCategory": "Highly Suitable",
+          "reason": "Optimal fit for Kharif cultivation season. Highly compatible with black soil texture. Soil pH of 7.2 is within ideal range (5.5 - 7.5)",
+          "soilCompatibility": "Requires alluvial, clay_loam, black with pH 5.5 - 7.5.",
+          "climateCompatibility": "Thrives between 20°C and 36°C.",
+          "waterRequirements": "High (1200 - 1500 mm)",
+          "recommendedSeason": "Kharif, Rabi, Zaid",
+          "estimatedDuration": "115 - 145 days",
+          "nutrientConsiderations": "Standard recommendation: 120:60:40 kg/ha.",
+          "irrigationConsiderations": "Continuous flooding / Alternate Wetting and Drying (AWD)",
+          "importantPrecautions": "Monitor for stem borer and blast disease. Adopt AWD to save up to 30% water.",
+          "confidenceLevel": "High (Agronomic Benchmark Reference)"
+        },
+        {
+          "cropName": "Cotton",
+          "scientificName": "Gossypium hirsutum",
+          "suitabilityScore": 98,
+          "suitabilityCategory": "Highly Suitable",
+          "reason": "Optimal fit for Kharif cultivation season. Highly compatible with black soil texture. Soil pH of 7.2 is within ideal range (6.5 - 8.2)",
+          "soilCompatibility": "Requires black, alluvial, loamy with pH 6.5 - 8.2.",
+          "climateCompatibility": "Thrives between 21°C and 35°C.",
+          "waterRequirements": "Moderate to High (650 - 800 mm)",
+          "recommendedSeason": "Kharif",
+          "estimatedDuration": "150 - 180 days",
+          "nutrientConsiderations": "Standard recommendation: 120:60:60 kg/ha.",
+          "irrigationConsiderations": "Drip / Furrow",
+          "importantPrecautions": "Deep black soils are optimal. Strictly avoid waterlogging. Install pheromone traps for pink bollworm management.",
+          "confidenceLevel": "High (Agronomic Benchmark Reference)"
+        },
+        {
+          "cropName": "Soybean",
+          "scientificName": "Glycine max",
+          "suitabilityScore": 98,
+          "suitabilityCategory": "Highly Suitable",
+          "reason": "Optimal fit for Kharif cultivation season. Highly compatible with black soil texture. Soil pH of 7.2 is within ideal range (6 - 7.5)",
+          "soilCompatibility": "Requires black, clay_loam, loamy with pH 6 - 7.5.",
+          "climateCompatibility": "Thrives between 20°C and 32°C.",
+          "waterRequirements": "Moderate (450 - 600 mm)",
+          "recommendedSeason": "Kharif",
+          "estimatedDuration": "90 - 105 days",
+          "nutrientConsiderations": "Standard recommendation: 30:60:40 kg/ha.",
+          "irrigationConsiderations": "Broad bed and furrow (BBF) / Rainfed with protective irrigation",
+          "importantPrecautions": "Inoculate with Bradyrhizobium japonicum. Ensure proper field drainage during heavy monsoon rains.",
+          "confidenceLevel": "High (Agronomic Benchmark Reference)"
+        },
+        {
+          "cropName": "Maize (Corn)",
+          "scientificName": "Zea mays",
+          "suitabilityScore": 90,
+          "suitabilityCategory": "Highly Suitable",
+          "reason": "Optimal fit for Kharif cultivation season. Soil pH of 7.2 is within ideal range (5.8 - 7.8)",
+          "soilCompatibility": "Requires alluvial, sandy_loam, loamy, red with pH 5.8 - 7.8.",
+          "climateCompatibility": "Thrives between 18°C and 33°C.",
+          "waterRequirements": "Moderate (500 - 650 mm)",
+          "recommendedSeason": "Kharif, Rabi, Zaid",
+          "estimatedDuration": "90 - 110 days",
+          "nutrientConsiderations": "Standard recommendation: 120:60:40 kg/ha.",
+          "irrigationConsiderations": "Ridge and furrow / Drip",
+          "importantPrecautions": "Silking and tasseling stages are highly sensitive to water stress. Scout early for Fall Armyworm (FAW).",
+          "confidenceLevel": "High (Agronomic Benchmark Reference)"
+        }
+      ],
+      "aiConfidenceLevel": "High",
+      "missingFactors": [
+        "Sub-soil micronutrient testing (Zinc, Boron)",
+        "Microclimate wind turbulence"
+      ],
+      "createdAt": "2026-11-13T08:10:48.669Z"
+    }
+  ],
+  "soilAnalyses": [
+    {
+      "id": "563d1f5d-a595-40a8-92b3-b6f2bdae3201",
+      "userId": "00000000-0000-0000-0000-000000000001",
+      "farmId": null,
+      "soilPh": 6.8,
+      "nitrogen": 210,
+      "phosphorus": 8,
+      "potassium": 130,
+      "organicCarbon": 0.42,
+      "soilMoisture": 35,
+      "soilType": "alluvial",
+      "conditionSummary": "Soil exhibits Neutral soil pH (6. Overall nutrient status is partially deficient in key macronutrients.",
+      "nutrientInterpretations": {
+        "nitrogen": {
+          "status": "Low",
+          "value": 210,
+          "interpretation": "Insufficient for vigorous vegetative growth. Crop will show stunted growth and pale yellowing older leaves."
+        },
+        "phosphorus": {
+          "status": "Low",
+          "value": 8,
+          "interpretation": "Poor root proliferation and delayed flowering. Older leaves may develop dark green to purplish tints."
+        },
+        "potassium": {
+          "status": "Optimum",
+          "value": 130,
+          "interpretation": "Optimum level. Regulates stomatal opening, enzyme activation, disease resistance, and grain grain-filling."
+        },
+        "organicCarbon": {
+          "status": "Low",
+          "value": 0.42,
+          "interpretation": "Depleted soil organic matter. Poor moisture retention, low microbial activity, and compacted soil structure."
+        }
+      },
+      "deficiencies": [
+        {
+          "nutrient": "Nitrogen (N)",
+          "impact": "Stunted plant growth, thin stems, pale yellowish older leaves.",
+          "correctiveAction": "Apply 25% extra nitrogen in split doses; incorporate green manure or neem coated urea."
+        },
+        {
+          "nutrient": "Phosphorus (P)",
+          "impact": "Poor root development, purple pigmentation on leaves, delayed flowering.",
+          "correctiveAction": "Apply Single Super Phosphate (SSP) or DAP as basal dressing placed 5cm below seed."
+        },
+        {
+          "nutrient": "Organic Carbon (OC)",
+          "impact": "Compacted soil, poor water retention and beneficial soil microbiology.",
+          "correctiveAction": "Add 5 tonnes/acre well-decomposed Farm Yard Manure (FYM) or 2 tonnes/acre vermicompost."
+        }
+      ],
+      "excesses": [],
+      "phInterpretation": "Neutral soil pH (6.5 - 7.5). Optimal nutrient availability for almost all crops.",
+      "soilAmendments": [],
+      "organicMatterAdvice": "Apply crop residue mulching, maintain minimum tillage, and add vermicompost or composted cow dung annually before monsoon.",
+      "recommendedTests": [
+        "Available Zinc (DTPA-Zn)",
+        "Available Iron (DTPA-Fe)",
+        "Electrical Conductivity (EC / Salinity)"
+      ],
+      "isLaboratoryVerified": false,
+      "confidenceScore": 88,
+      "createdAt": "2026-11-13T08:10:48.676Z"
+    }
+  ],
+  "fertilizerAdvisories": [
+    {
+      "id": "13c29c7b-1ef8-4280-a66d-35eaeea87304",
+      "userId": "00000000-0000-0000-0000-000000000001",
+      "farmId": null,
+      "cropName": "Rice (Paddy)",
+      "growthStage": "Tillering",
+      "soilType": "clay_loam",
+      "landArea": 2,
+      "areaUnit": "acres",
+      "nutrientOverview": {
+        "nitrogenRequirement": "Moderate to high. Requires split applications for maximum efficiency.",
+        "phosphorusRequirement": "Full dose applied at sowing for deep root establishment.",
+        "potassiumRequirement": "Applied basal or split to enhance stalk strength and drought resilience.",
+        "stageSpecificFocus": "Focus on root establishment and uniform tillering."
+      },
+      "fertilizerSchedule": [
+        {
+          "stage": "Basal Dressing (At Sowing)",
+          "timing": "During final land preparation or sowing",
+          "fertilizerCategory": "Complete NPK Basal",
+          "recommendedFertilizer": "DAP (50 kg) + MOP (25 kg) + Urea (20 kg) per acre",
+          "applicationMethod": "Deep soil placement 5cm beside seed furrow",
+          "purpose": "Provides essential phosphorus and initial nitrogen for seedling vigor."
+        },
+        {
+          "stage": "First Top Dressing (Vegetative / Tillering)",
+          "timing": "20 - 25 days after sowing (post 1st irrigation)",
+          "fertilizerCategory": "Nitrogen Boost",
+          "recommendedFertilizer": "Neem Coated Urea (45 kg per acre)",
+          "applicationMethod": "Broadcasting in moist soil conditions",
+          "purpose": "Stimulates vigorous tillering and leaf canopy expansion."
+        },
+        {
+          "stage": "Second Top Dressing (Panicle / Flowering)",
+          "timing": "45 - 55 days after sowing",
+          "fertilizerCategory": "Nitrogen & Micronutrient",
+          "recommendedFertilizer": "Neem Coated Urea (30 kg) + Zinc Sulphate (5 kg foliar or soil)",
+          "applicationMethod": "Top dressing followed by light irrigation",
+          "purpose": "Enhances flowering percentage and panicle grain count."
+        }
+      ],
+      "organicAlternatives": [
+        {
+          "name": "Well-cured Farmyard Manure (FYM)",
+          "applicationRate": "4 - 6 tonnes/acre",
+          "benefits": "Improves soil structure, water holding, and slow-releases balanced nutrients."
+        },
+        {
+          "name": "Vermicompost",
+          "applicationRate": "1.5 - 2 tonnes/acre",
+          "benefits": "Contains concentrated humus, active microbes, and plant growth regulators."
+        },
+        {
+          "name": "Biofertilizers (Azotobacter + PSB)",
+          "applicationRate": "200g per 10kg seed",
+          "benefits": "Biological nitrogen fixation and solubilization of fixed soil phosphorus."
+        }
+      ],
+      "environmentalPrecautions": "Never apply urea immediately before heavy rains to prevent nitrate runoff into local water bodies. Avoid excessive nitrogen to prevent pest outbreaks.",
+      "referenceStandard": "Indian Council of Agricultural Research (ICAR) Package of Practices",
+      "createdAt": "2026-11-13T08:10:48.688Z"
+    }
+  ],
+  "irrigationAdvisories": [
+    {
+      "id": "17059cd1-872d-46c0-881b-5c9f96463004",
+      "userId": "00000000-0000-0000-0000-000000000001",
+      "farmId": null,
+      "cropName": "Wheat",
+      "growthStage": "Crown Root Initiation",
+      "soilType": "alluvial",
+      "irrigationMethod": "Check Basin",
+      "waterAvailability": "sufficient",
+      "irrigationGuidance": "Maintain adequate root-zone moisture during critical growth stages. For Wheat, prevent moisture stress during flowering and fruit/grain formation.",
+      "recommendedSchedule": [
+        {
+          "interval": "Every 7 - 10 days",
+          "durationOrDepth": "50 - 65 mm water depth",
+          "timingOfDay": "Early Morning (6 AM - 9 AM) or Evening",
+          "priority": "Critical"
+        },
+        {
+          "interval": "As per soil tension (when top 5cm is dry)",
+          "durationOrDepth": "Light wetting",
+          "timingOfDay": "Late Evening",
+          "priority": "High"
+        }
+      ],
+      "waterConservationTips": [
+        "Adopt organic trash mulching to reduce soil surface evaporation by up to 35%.",
+        "Use alternate furrow irrigation in row crops to save 25% water without yield reduction.",
+        "Operate drip lines with pressure regulators to ensure uniform discharge across slopes."
+      ],
+      "waterStressIndicators": [
+        "Wilting or drooping leaves during peak afternoon hours that fail to recover by evening.",
+        "Dull, grayish-green discoloration of vegetative foliage.",
+        " premature shedding of flowers and small immature pods/fruits."
+      ],
+      "overUnderPrecautions": "Waterlogging causes root asphyxiation, accelerates Phytophthora and Fusarium root rot, and leaches valuable nitrates below root zone. Induces severe moisture stress, poor nutrient uptake, pollen sterility, and significant yield loss.",
+      "createdAt": "2026-11-13T08:10:48.696Z"
+    }
+  ],
+  "diseaseAnalyses": [],
+  "chatConversations": [],
+  "chatMessages": [],
+  "farmingCalendars": [
+    {
+      "id": "a55157f5-2cd0-401d-b1dc-910523ffc369",
+      "userId": "00000000-0000-0000-0000-000000000001",
+      "farmId": null,
+      "cropName": "Cotton",
+      "variety": "Standard High-Yielding",
+      "sowingDate": "2026-06-15",
+      "expectedHarvestDate": "2026-10-13",
+      "durationDays": 120,
+      "tasks": [
+        {
+          "id": "14883309-aed4-4855-8bb3-606f4156a6bc",
+          "calendarId": "a55157f5-2cd0-401d-b1dc-910523ffc369",
+          "activityName": "Deep Ploughing & Soil Solarization",
+          "description": "Summer deep ploughing to eradicate resting soil-borne pests, fungal spores, and perennial weed seeds.",
+          "cropGrowthStage": "Pre-Sowing / Field Preparation",
+          "recommendedDate": "2026-05-31",
+          "recommendedTiming": "15 days before sowing",
+          "category": "Land Preparation",
+          "isCompleted": false,
+          "completedAt": null
+        },
+        {
+          "id": "f700bd20-d727-4de9-b744-af846ba842d3",
+          "calendarId": "a55157f5-2cd0-401d-b1dc-910523ffc369",
+          "activityName": "Basal Manuring & Seed Treatment",
+          "description": "Incorporate 5 tonnes FYM per acre. Treat certified seed with Trichoderma viride or recommended fungicide.",
+          "cropGrowthStage": "Pre-Sowing",
+          "recommendedDate": "2026-06-13",
+          "recommendedTiming": "2 days before sowing",
+          "category": "Land Preparation",
+          "isCompleted": false,
+          "completedAt": null
+        },
+        {
+          "id": "9c7b1d6b-04a0-42e3-b501-2cbe705c0355",
+          "calendarId": "a55157f5-2cd0-401d-b1dc-910523ffc369",
+          "activityName": "Sowing & Basal Fertilizer Placement",
+          "description": "Sow at recommended line-to-line spacing. Place basal DAP and Potash 5cm below seed depth.",
+          "cropGrowthStage": "Sowing Day",
+          "recommendedDate": "2026-06-15",
+          "recommendedTiming": "Day 0",
+          "category": "Sowing",
+          "isCompleted": false,
+          "completedAt": null
+        },
+        {
+          "id": "5482f483-b2b1-4b50-9875-3c85b9c33b21",
+          "calendarId": "a55157f5-2cd0-401d-b1dc-910523ffc369",
+          "activityName": "First Irrigation & Tillering Top Dressing",
+          "description": "Crucial irrigation at Crown Root Initiation (CRI) / early tillering. Broadcast first dose of Neem Coated Urea.",
+          "cropGrowthStage": "Crown Root Initiation / Early Tillering",
+          "recommendedDate": "2026-07-06",
+          "recommendedTiming": "20-22 DAS",
+          "category": "Nutrient Management",
+          "isCompleted": false,
+          "completedAt": null
+        },
+        {
+          "id": "921c2688-8be0-4ef0-879d-812689955047",
+          "calendarId": "a55157f5-2cd0-401d-b1dc-910523ffc369",
+          "activityName": "Hand Weeding / Intercultural Operation",
+          "description": "Perform hand weeding or mechanical hoeing between rows to eliminate weed competition before canopy closure.",
+          "cropGrowthStage": "Active Tillering",
+          "recommendedDate": "2026-07-20",
+          "recommendedTiming": "30-35 DAS",
+          "category": "Weed Control",
+          "isCompleted": false,
+          "completedAt": null
+        },
+        {
+          "id": "ff33b8be-f59f-48a1-be15-5e05cca4b10e",
+          "calendarId": "a55157f5-2cd0-401d-b1dc-910523ffc369",
+          "activityName": "Booting Stage Irrigation & Pest Scouting",
+          "description": "Provide second scheduled irrigation. Scout field for aphid colonies, leaf spots, and nutrient hunger signs.",
+          "cropGrowthStage": "Booting / Panicle Emergence",
+          "recommendedDate": "2026-08-14",
+          "recommendedTiming": "55-65 DAS",
+          "category": "Pest & Disease Scouting",
+          "isCompleted": false,
+          "completedAt": null
+        },
+        {
+          "id": "3849387f-453e-439e-928a-7ed5827b9d7e",
+          "calendarId": "a55157f5-2cd0-401d-b1dc-910523ffc369",
+          "activityName": "Milking & Grain Filling Irrigation",
+          "description": "Maintain soil moisture to support full grain plumpness. Avoid irrigation during strong windy days to prevent lodging.",
+          "cropGrowthStage": "Milking & Dough Stage",
+          "recommendedDate": "2026-09-08",
+          "recommendedTiming": "80-90 DAS",
+          "category": "Irrigation",
+          "isCompleted": false,
+          "completedAt": null
+        },
+        {
+          "id": "7516a2fc-5fe9-4eeb-aa02-0d29d6f0538a",
+          "calendarId": "a55157f5-2cd0-401d-b1dc-910523ffc369",
+          "activityName": "Harvesting & Threshing",
+          "description": "Harvest when grains achieve golden maturity and moisture drops to 12-14%. Clean and bag under dry weather.",
+          "cropGrowthStage": "Maturity & Harvest",
+          "recommendedDate": "2026-10-08",
+          "recommendedTiming": "110-120 DAS",
+          "category": "Harvesting",
+          "isCompleted": false,
+          "completedAt": null
+        }
+      ],
+      "createdAt": "2026-11-13T08:10:50.400Z"
+    }
+  ],
+  "calendarTasks": []
+}
